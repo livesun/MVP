@@ -1,6 +1,9 @@
 ## MVP
 动态创建Presenter和Model，并支持多Presenter多Model，不用关心P和M的创建，处理了P和V的解绑
 
+### 效果
+ 
+ 
 ### 使用
   #### 依赖
  ```
@@ -37,4 +40,6 @@
  ```
  #### View
  获取View getView();
+ 
+ #### 详看demo代码
  
