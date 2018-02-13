@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="livesun.io.mvp.MainActivity">
+
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/pb"
+        />
+
+   <Button
+       android:text="获取图片"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/testBtn1"
+       />
+
+    <Button
+        android:text="获取图片大小-多presenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testBtn2"
+        />
+
+    <Button
+        android:text="获取图片大小-多Model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testBtn3"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testIv"
+        android:scaleType="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testTv"
+        android:text="图片大小："
+        />
+
+</LinearLayout>
