@@ -13,7 +13,7 @@
  ```
  ```
  dependencies {
-	        compile 'com.github.livesun:MVP:v1.0'
+	        compile 'com.github.livesun:MVP:v1.1'
 	}
   
  ```
